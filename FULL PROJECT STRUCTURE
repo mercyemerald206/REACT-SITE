@@ -1,0 +1,35 @@
+electrical-ai-digital-twin-platform/
+│
+├── README.md
+│
+├── backend/
+│   ├── main.py
+│   ├── requirements.txt
+│   ├── render.yaml
+│   ├── Dockerfile
+│
+├── frontend/
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   ├── src/
+│   │   ├── main.jsx
+│   │   ├── App.jsx
+│   │   ├── styles.css
+│   │   │
+│   │   ├── components/
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Grid3D.jsx
+│   │   │   ├── LiveMetrics.jsx
+│   │   │   ├── MetricCard.jsx
+│   │   │   ├── SystemHealth.jsx
+│   │   │   ├── ControlPanel.jsx
+│   │
+│   │   ├── api/
+│   │       └── wsClient.js
+│
+├── deploy/
+│   ├── vercel.json
+│
+└── .gitignore
